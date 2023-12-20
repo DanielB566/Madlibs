@@ -2,6 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(); /*add smt at the end */
 }
 
 .container {
@@ -10,7 +11,6 @@ body {
 }
 
 header, footer {
-    background-color: #3498db;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -20,9 +20,27 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: black;
+}
+
+
+
+.cooltext{
+    font-family: 'Lobster';
+    color: 
+}
+
+
+/*madLib section*/
+.border1{
+    border: dashed red;
+    
 }
 
 #madLibOutput {
     padding: 20px;
     text-align: center;
+
 }
+/*madLib section*/
+
