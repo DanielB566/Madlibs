@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(); /*add smt at the end */
+    background-color: green;
 }
 
 .container {
@@ -24,10 +25,15 @@ footer {
 }
 
 
+.headertext{
+    font-family: 'Lobster';
+}
+
+
 
 .cooltext{
     font-family: 'Lobster';
-    color: 
+    font-size: 1.5rem;
 }
 
 
@@ -43,4 +49,35 @@ footer {
 
 }
 /*madLib section*/
+
+.button1{
+    border: 4px solid white;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+    padding: 10px 20px;
+    transition: 1s;
+
+}
+
+.button1:hover{
+    border: 4px solid red;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.button1:active{
+    border: 4px solid white;
+    color: red;
+    font-weight: bold;
+}
+
+.button1:link{
+    border: 4px solid white;
+    color: red;
+    font-weight: bold;
+}
 

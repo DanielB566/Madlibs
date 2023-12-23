@@ -23,10 +23,10 @@
 
     <!-- place navbar here -->
 
-    <header class="text-black text-center py-2">
+    <header class="text-white text-center py-2">
         <div class="container">
-            <h1 class="display-4 cooltext">Madlibs Tutorial Site</h1>
-            <p class="lead cooltext">Check out this super duper awesome Madlibs</p>
+            <h1 class="display-4 headertext">Madlibs Tutorial Site</h1>
+            <p class="lead headertext">Check out this super duper awesome Madlibs</p>
         </div>
     </header>
 
@@ -35,9 +35,12 @@
 
 
     <main class="container">
-        <div class="row justify-content-center">
-        <div class="col-12  m-5">
+        <div class="row justify-content-center text-white mt-5 mb-2">
+        <div class="col-12 text-center">
           <!--Mad Lib will go here --->
+          <button class="btn button1 btn-lg btn-block" id="generateMadLib" onclick="generateMadLib()">
+            Click to Create Madlib!
+            </button>
           <p class="cooltext border1" id="madLibOutput"></p>
         </div>
       </div>
